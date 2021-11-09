@@ -8,6 +8,7 @@ from trytond.pyson import Eval
 
 class Sale(metaclass=PoolMeta):
     __name__ = 'sale.sale'
+
     paymode = fields.Many2One('payment.paymode', 'Paymode',
         domain=[('party', '=', Eval('party', -1))], depends=['party'])
 
