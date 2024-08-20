@@ -201,7 +201,7 @@ Sale 5 products::
     >>> sale.shipment_state
     'waiting'
     >>> sale.invoice_state
-    'waiting'
+    'pending'
     >>> len(sale.shipments), len(sale.shipment_returns), len(sale.invoices)
     (1, 0, 1)
     >>> invoice, = sale.invoices
