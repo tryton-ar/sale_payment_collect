@@ -1,9 +1,6 @@
 Version 8.0.0 - 2026-07-21
 * Migración a Tryton 8.0: hatchling build system, [register] en tryton.cfg
 
-Version 8.0.0 - 2026-07-21
-* Migración a Tryton 8.0: hatchling build system, [register] en tryton.cfg
-
 Version 7.0.0 - 2024-08-20
 * Bug fixes (see git logs for details)
 
