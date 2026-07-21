@@ -41,8 +41,8 @@ class Sale(metaclass=PoolMeta):
             if self.party.customer_paymode:
                 self.paymode = self.party.customer_paymode
 
-    def _get_invoice_sale(self):
-        invoice = super(Sale, self)._get_invoice_sale()
+    def _get_invoice(self):
+        invoice = super(Sale, self)._get_invoice()
         if invoice:
             invoice.paymode = self.paymode
         return invoice
